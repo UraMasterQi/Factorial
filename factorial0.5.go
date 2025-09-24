@@ -1,5 +1,5 @@
 //Программа факториал числа
-//Итоговая версия 0.4
+//Итоговая версия 0.5
 
 package main
 
@@ -9,11 +9,11 @@ import (
 )
 
 const (
-	Blue  = "\033[34m"
-	Red   = "\033[31m"
-	Green = "\033[32m"
+	Blue   = "\033[34m"
+	Red    = "\033[31m"
+	Green  = "\033[32m"
 	Yellow = "\033[33m"
-	Reset = "\033[0m"
+	Reset  = "\033[0m"
 )
 
 const (
@@ -59,7 +59,7 @@ func main() {
 		}
 		// Выводим результат в консоль.
 		fmt.Println(Green + launs)
-		fmt.Println("Факториал числа", numberUser, "=", Yellow + strconv.Itoa(numberUser) + Reset)
+		fmt.Println("Факториал числа", numberUser, "=", Yellow+strconv.Itoa(numberUser)+Reset)
 		fmt.Println(launs + Reset)
 
 	}
